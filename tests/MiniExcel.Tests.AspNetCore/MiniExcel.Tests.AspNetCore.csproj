@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MiniExcel\MiniExcelLibs.csproj" />
+    <PackageReference Include="MiniExcel" Version="0.0.7-beta" />
   </ItemGroup>
 
 </Project>

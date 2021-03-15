@@ -27,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MiniExcel\MiniExcelLibs.csproj" />
+    <ProjectReference Include="..\..\src\MiniExcel\MiniExcelLibs.csproj" />
   </ItemGroup>
 
 </Project>
