@@ -68,6 +68,31 @@ MiniExcel 现已支持 Rust，提供更底层的控制和高效的 XLSX 处理�
 
 请查看 [NuGet](https://www.nuget.org/packages/MiniExcel)
 
+### 命令行工具
+
+通过 .NET Tool 安装 MiniExcel CLI：
+
+```shell
+dotnet tool install --global MiniExcel.Cli
+```
+
+也可以从 [GitHub Releases](https://github.com/mini-software/MiniExcel/releases) 下载 Windows、Linux 或 macOS 的 NativeAOT 程序，无需安装 .NET 运行时。
+
+将 Excel 或 CSV 查询为 JSON：
+
+```shell
+miniexcel query --input input.xlsx --sheet Sheet1
+```
+
+在 Excel 与 CSV 之间转换：
+
+```shell
+miniexcel convert --input input.csv --output output.xlsx
+miniexcel convert --input input.xlsx --output output.csv --overwrite
+```
+
+运行 `miniexcel <command> --help` 查看全部选项。
+
 ### 更新日志
 
 请查看 [Release Notes](docs)
