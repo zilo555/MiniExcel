@@ -78,6 +78,8 @@ dotnet tool install --global MiniExcel.Cli
 
 也可以从 [GitHub Releases](https://github.com/mini-software/MiniExcel/releases) 下载 Windows、Linux 或 macOS 的 NativeAOT 程序，无需安装 .NET 运行时。
 
+Python、Node.js、Rust、Go、Java、PHP 等任何能启动进程的语言都可以调用 NativeAOT CLI。它通过文件路径接收输入，并将查询结果以 JSON 输出，因此不需要 .NET 语言绑定。这里提供的是命令行进程集成，不是原生库 FFI API。
+
 将 Excel 或 CSV 查询为 JSON：
 
 ```shell

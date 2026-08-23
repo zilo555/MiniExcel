@@ -96,6 +96,8 @@ dotnet tool install --global MiniExcel.Cli
 
 NativeAOT executables for Windows, Linux, and macOS are also available from [GitHub Releases](https://github.com/mini-software/MiniExcel/releases) and do not require a .NET runtime.
 
+The NativeAOT CLI can be invoked as a process from Python, Node.js, Rust, Go, Java, PHP, or any other language. It accepts file paths and writes query results as JSON, so no .NET language binding is required. This is command-line integration rather than a native library FFI API.
+
 Query an Excel or CSV file as JSON:
 
 ```shell
